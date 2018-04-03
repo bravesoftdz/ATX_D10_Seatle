@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.9.32" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39141,2783635301" ReportOptions.Description.Text="" ReportOptions.LastChange="41018,3924805787" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." ShowProgress="False" PropData="044C656674021003546F70026008446174617365747301010C3400000020446174615365743D22667278444244617461736574342220446174615365744E616D653D2266727844424461746173657434220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="19" RightMargin="4" TopMargin="4" BottomMargin="4" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="188" Left="0" Top="16" Width="706,77211" Stretched="True">
+      <TfrxMemoView Name="Memo1" Left="2" Top="20" Width="668" Height="20" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="КАРТОЧКА УЧЕТА РАБОТЫ АВТОМОБИЛЬНОЙ (МОТОЦИКЛЕТНОЙ) ШИНЫ"/>
+      <TfrxMemoView Name="Memo2" Left="2" Top="40" Width="668" Height="20" ShowHint="False" StretchMode="smMaxHeight" HAlign="haCenter" Text="новой, востановленной, бывшей в эксплуатации (ненужное зачеркнуть)"/>
+      <TfrxMemoView Name="Memo15" Left="2" Top="68" Width="188" Height="20" ShowHint="False" StretchMode="smMaxHeight" Text="Обозначение (размер) шины"/>
+      <TfrxMemoView Name="Memo16" Left="338" Top="68" Width="148" Height="20" ShowHint="False" StretchMode="smMaxHeight" Text="Серийный номер шины"/>
+      <TfrxMemoView Name="Memo17" Left="226" Top="132" Width="264" Height="20" ShowHint="False" StretchMode="smMaxHeight" Text="Дата поступления шины в автохозяйство"/>
+      <TfrxMemoView Name="Memo21" Left="2" Top="104" Width="52" Height="20" ShowHint="False" StretchMode="smMaxHeight" Text="Модель"/>
+      <TfrxMemoView Name="Memo23" Left="158" Top="104" Width="92" Height="20" ShowHint="False" StretchMode="smMaxHeight" Text="ГОСТ или ТУ"/>
+      <TfrxMemoView Name="Memo25" Left="378" Top="104" Width="128" Height="20" ShowHint="False" StretchMode="smMaxHeight" Text="Завод-изготавитель"/>
+      <TfrxMemoView Name="Memo26" Left="10" Top="152" Width="200" Height="20" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="4" ParentFont="False" Text="наименование автохозяйства, органа"/>
+      <TfrxMemoView Name="Memo7" Left="200" Top="72" Width="128" Height="16" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="8" ParentFont="False" Text="[rrr]"/>
+      <TfrxMemoView Name="Memo8" Left="496" Top="72" Width="172" Height="16" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="8" ParentFont="False" Text="[sernum]"/>
+      <TfrxMemoView Name="Memo20" Left="496" Top="136" Width="172" Height="16" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="8" ParentFont="False" Text="[date1]"/>
+      <TfrxMemoView Name="Memo9" Left="64" Top="108" Width="80" Height="16" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="8" ParentFont="False" Text=""/>
+      <TfrxMemoView Name="Memo22" Left="260" Top="108" Width="112" Height="16" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="8" ParentFont="False" Text=""/>
+      <TfrxMemoView Name="Memo24" Left="512" Top="108" Width="156" Height="16" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="8" ParentFont="False" Text=""/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Height="20" Left="0" Top="372" Width="706,77211" Columns="1" ColumnWidth="200" ColumnGap="20" DataSet="frxDBDataset4" DataSetName="frxDBDataset4" RowCount="0" Stretched="True">
+      <TfrxMemoView Name="Memo19" Left="2" Top="0" Width="132" Height="20" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="9" ParentFont="False" Text="[frxDBDataset4.&#34;inv_t&#34;], [frxDBDataset4.&#34;avto&#34;]"/>
+      <TfrxMemoView Name="Memo3" Left="134" Top="0" Width="96" Height="20" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="9" HAlign="haCenter" ParentFont="False" Text="[frxDBDataset4.&#34;year&#34;]"/>
+      <TfrxMemoView Name="Memo4" Left="230" Top="0" Width="96" Height="20" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="9" HAlign="haCenter" ParentFont="False" Text="[frxDBDataset4.&#34;kv&#34;]"/>
+      <TfrxMemoView Name="Memo5" Left="326" Top="0" Width="96" Height="20" ShowHint="False" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="9" HAlign="haCenter" ParentFont="False" Text="[frxDBDataset4.&#34;val&#34;]"/>
+      <TfrxMemoView Name="Memo6" Left="422" Top="0" Width="96" Height="20" ShowHint="False" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="11" HAlign="haCenter" ParentFont="False" Text="[frxDBDataset4.&#34;s&#34;]"/>
+    </TfrxMasterData>
+    <TfrxHeader Name="MasterHeader1" Height="88" Left="0" Top="264" Width="706,77211" Stretched="True">
+      <TfrxMemoView Name="Memo18" Left="2" Top="12" Width="132" Height="76" ShowHint="False" StretchMode="smMaxHeight" Color="-16777201" Frame.Typ="13" HAlign="haCenter" Text="Инвентарный номер автомобиля (мотоцикла, прицепа), марка, модель"/>
+      <TfrxMemoView Name="Memo10" Left="134" Top="12" Width="96" Height="76" ShowHint="False" StretchMode="smMaxHeight" Color="-16777201" Frame.Typ="13" HAlign="haCenter" Text="Год"/>
+      <TfrxMemoView Name="Memo11" Left="230" Top="12" Width="96" Height="76" ShowHint="False" StretchMode="smMaxHeight" Color="-16777201" Frame.Typ="13" HAlign="haCenter" Text="Квартал"/>
+      <TfrxMemoView Name="Memo12" Left="326" Top="12" Width="192" Height="36" ShowHint="False" StretchMode="smMaxHeight" Color="-16777201" Frame.Typ="7" HAlign="haCenter" Text="Пробег шины"/>
+      <TfrxMemoView Name="Memo13" Left="326" Top="48" Width="96" Height="40" ShowHint="False" StretchMode="smMaxHeight" Color="-16777201" Frame.Typ="13" HAlign="haCenter" Text="за квартал"/>
+      <TfrxMemoView Name="Memo14" Left="422" Top="48" Width="96" Height="40" ShowHint="False" StretchMode="smMaxHeight" Color="-16777201" Frame.Typ="15" HAlign="haCenter" Text="с начала эксплуатации"/>
+    </TfrxHeader>
+    <TfrxReportSummary Name="ReportSummary1" Height="284" Left="0" Top="452" Width="706,77211" Stretched="True">
+      <TfrxMemoView Name="Memo28" Left="2" Top="16" Width="668" Height="20" ShowHint="False" StretchMode="smMaxHeight" Text="Ответственный за учет работы шины _______________________________________________________"/>
+      <TfrxMemoView Name="Memo29" Left="2" Top="76" Width="668" Height="20" ShowHint="False" StretchMode="smMaxHeight" Text="О выбраковке (списании) шин"/>
+      <TfrxMemoView Name="Memo30" Left="2" Top="108" Width="668" Height="20" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="4" HAlign="haCenter" ParentFont="False" Text="указывается причина непригодности к дальнейшей эксплуатации, ремонту, решении комиссии"/>
+      <TfrxMemoView Name="Memo31" Left="2" Top="136" Width="168" Height="20" ShowHint="False" StretchMode="smMaxHeight" Text="Комиссия: председатель"/>
+      <TfrxMemoView Name="Memo32" Left="178" Top="156" Width="492" Height="20" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="4" HAlign="haCenter" ParentFont="False" Text="должность, подпись, фамилия"/>
+      <TfrxMemoView Name="Memo33" Left="-2" Top="176" Width="112" Height="20" ShowHint="False" StretchMode="smMaxHeight" HAlign="haRight" Text="Члены"/>
+      <TfrxMemoView Name="Memo34" Left="122" Top="196" Width="548" Height="20" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="4" HAlign="haCenter" ParentFont="False" Text="должность, подпись, фамилия"/>
+      <TfrxMemoView Name="Memo27" Left="0" Top="48" Width="672" Height="16" ShowHint="False" HAlign="haCenter" Text="ЗАКЛЮЧЕНИЕ"/>
+      <TfrxMemoView Name="Memo35" Left="0" Top="216" Width="672" Height="16" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="8" ParentFont="False" Text=""/>
+      <TfrxMemoView Name="Memo36" Left="0" Top="252" Width="228" Height="24" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="&#34;____&#34;_____________ 20    г."/>
+    </TfrxReportSummary>
+  </TfrxReportPage>
+</TfrxReport>

@@ -1,0 +1,209 @@
+object frmMessDlg: TfrmMessDlg
+  Left = 401
+  Top = 404
+  BorderStyle = bsNone
+  Caption = 'frmMessDlg'
+  ClientHeight = 116
+  ClientWidth = 329
+  Color = 15590358
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 329
+    Height = 116
+    Align = alClient
+    Color = 15590358
+    TabOrder = 0
+    object LbStaticText1: TLbStaticText
+      Tag = 1
+      Left = 1
+      Top = 1
+      Width = 327
+      Height = 25
+      Align = alTop
+      Caption = #1050#1072#1088#1090#1086#1095#1082#1072' '#1072#1074#1090#1086#1090#1088#1072#1085#1089#1087#1086#1088#1090#1072
+      Color = 13876122
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = [fsBold]
+      HotTrackFont.Charset = DEFAULT_CHARSET
+      HotTrackFont.Color = clWindowText
+      HotTrackFont.Height = -11
+      HotTrackFont.Name = 'MS Sans Serif'
+      HotTrackFont.Style = []
+      ParentColor = False
+      ParentFont = False
+      Style = bsModern
+      OnMouseDown = LbStaticText1MouseDown
+    end
+    object Panel2: TPanel
+      Left = 1
+      Top = 26
+      Width = 327
+      Height = 89
+      Align = alClient
+      BevelOuter = bvLowered
+      ParentColor = True
+      TabOrder = 1
+      object Image1: TImage
+        Left = 16
+        Top = 8
+        Width = 45
+        Height = 45
+      end
+      object Panel3: TPanel
+        Left = 1
+        Top = 53
+        Width = 325
+        Height = 35
+        Align = alBottom
+        BevelOuter = bvNone
+        ParentColor = True
+        TabOrder = 0
+        object LbB_Ok: TLbButton
+          Left = 3
+          Top = 6
+          Width = 78
+          Height = 25
+          Caption = 'OK'
+          Color = 13876122
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -11
+          Font.Name = 'MS Sans Serif'
+          Font.Style = [fsBold]
+          HotTrackFont.Charset = DEFAULT_CHARSET
+          HotTrackFont.Color = clWindowText
+          HotTrackFont.Height = -11
+          HotTrackFont.Name = 'MS Sans Serif'
+          HotTrackFont.Style = []
+          ModalResult = 0
+          ParentColor = False
+          ParentFont = False
+          Style = bsModern
+          TabOrder = 0
+          UseHotTrackFont = False
+          Visible = False
+          OnClick = LbB_OkClick
+        end
+        object LbB_Yes: TLbButton
+          Left = 83
+          Top = 6
+          Width = 78
+          Height = 25
+          Caption = #1044#1072
+          Color = 13876122
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -11
+          Font.Name = 'MS Sans Serif'
+          Font.Style = [fsBold]
+          HotTrackFont.Charset = DEFAULT_CHARSET
+          HotTrackFont.Color = clWindowText
+          HotTrackFont.Height = -11
+          HotTrackFont.Name = 'MS Sans Serif'
+          HotTrackFont.Style = []
+          ModalResult = 6
+          ParentColor = False
+          ParentFont = False
+          Style = bsModern
+          TabOrder = 1
+          UseHotTrackFont = False
+          Visible = False
+        end
+        object LbB_Not: TLbButton
+          Left = 163
+          Top = 6
+          Width = 78
+          Height = 25
+          Caption = #1053#1077#1090
+          Color = 13876122
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -11
+          Font.Name = 'MS Sans Serif'
+          Font.Style = [fsBold]
+          HotTrackFont.Charset = DEFAULT_CHARSET
+          HotTrackFont.Color = clWindowText
+          HotTrackFont.Height = -11
+          HotTrackFont.Name = 'MS Sans Serif'
+          HotTrackFont.Style = []
+          ModalResult = 7
+          ParentColor = False
+          ParentFont = False
+          Style = bsModern
+          TabOrder = 2
+          UseHotTrackFont = False
+          Visible = False
+        end
+        object LbB_Cancel: TLbButton
+          Left = 243
+          Top = 6
+          Width = 78
+          Height = 25
+          Caption = #1054#1090#1084#1077#1085#1072
+          Color = 13876122
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -11
+          Font.Name = 'MS Sans Serif'
+          Font.Style = [fsBold]
+          HotTrackFont.Charset = DEFAULT_CHARSET
+          HotTrackFont.Color = clWindowText
+          HotTrackFont.Height = -11
+          HotTrackFont.Name = 'MS Sans Serif'
+          HotTrackFont.Style = []
+          ModalResult = 2
+          ParentColor = False
+          ParentFont = False
+          Style = bsModern
+          TabOrder = 3
+          UseHotTrackFont = False
+          Visible = False
+          OnClick = LbB_CancelClick
+        end
+      end
+      object Panel4: TPanel
+        Left = 1
+        Top = 1
+        Width = 325
+        Height = 52
+        Align = alClient
+        BevelOuter = bvNone
+        BorderWidth = 5
+        Color = 15590358
+        TabOrder = 1
+        object Label1: TLabel
+          Left = 5
+          Top = 5
+          Width = 315
+          Height = 42
+          Align = alClient
+          Alignment = taCenter
+          Caption = 'Label1'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -11
+          Font.Name = 'MS Sans Serif'
+          Font.Pitch = fpFixed
+          Font.Style = []
+          ParentFont = False
+          OnClick = Label1Click
+          ExplicitWidth = 32
+          ExplicitHeight = 13
+        end
+      end
+    end
+  end
+end

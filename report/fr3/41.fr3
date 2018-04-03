@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.9.32" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39268,3100822801" ReportOptions.Description.Text="" ReportOptions.LastChange="41018,4940310532" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." ShowProgress="False" PropData="044C656674021003546F70026008446174617365747301010C3400000020446174615365743D22667278444244617461736574312220446174615365744E616D653D2266727844424461746173657431220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="5" RightMargin="5" TopMargin="5" BottomMargin="5" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxMasterData Name="MasterData1" Height="20" Left="0" Top="208" Width="755,906" Columns="1" ColumnWidth="200" ColumnGap="20" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" RowCount="0" Stretched="True">
+      <TfrxMemoView Name="Memo1" Left="6" Top="0" Width="140" Height="20" ShowHint="False" StretchMode="smMaxHeight" Frame.Typ="9" Text="[frxDBDataset1.&#34;Expr1&#34;]"/>
+      <TfrxMemoView Name="Memo3" Left="146" Top="0" Width="130" Height="20" ShowHint="False" StretchMode="smMaxHeight" Frame.Typ="9" Text="[frxDBDataset1.&#34;Expr2&#34;]"/>
+      <TfrxMemoView Name="Memo4" Left="276" Top="0" Width="84" Height="20" ShowHint="False" StretchMode="smMaxHeight" Frame.Typ="9" Text="[frxDBDataset1.&#34;Expr3&#34;]"/>
+      <TfrxMemoView Name="Memo5" Left="360" Top="0" Width="88" Height="20" ShowHint="False" StretchMode="smMaxHeight" Frame.Typ="9" Text="[frxDBDataset1.&#34;date&#34;]"/>
+      <TfrxMemoView Name="Memo8" Left="448" Top="0" Width="90" Height="20" ShowHint="False" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Frame.Typ="9" HAlign="haRight" HideZeros="True" Text="[frxDBDataset1.&#34;rubl&#34;]"/>
+      <TfrxMemoView Name="Memo9" Left="538" Top="0" Width="90" Height="20" ShowHint="False" StretchMode="smMaxHeight" Frame.Typ="9" HAlign="haRight" HideZeros="True" Text="[frxDBDataset1.&#34;lit&#34;]"/>
+      <TfrxMemoView Name="Memo10" Left="628" Top="0" Width="90" Height="20" ShowHint="False" StretchMode="smMaxHeight" Frame.Typ="11" HAlign="haRight" HideZeros="True" Text="[frxDBDataset1.&#34;tonn&#34;]"/>
+    </TfrxMasterData>
+    <TfrxGroupHeader Name="GroupHeader5" Height="54" Left="0" Top="136" Width="755,906" Condition="frxDBDataset1.&#34;name&#34;" ReprintOnNewPage="True">
+      <TfrxMemoView Name="Memo2" Left="5,953" Top="13" Width="712" Height="22" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Style="1" HideZeros="True" ParentFont="False" Text="[frxDBDataset1.&#34;name&#34;]"/>
+      <TfrxMemoView Name="Memo16" Left="6" Top="36" Width="140" Height="18" ShowHint="False" StretchMode="smMaxHeight" Color="14211288" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="13" HideZeros="True" ParentFont="False" Text="Бюджет"/>
+      <TfrxMemoView Name="Memo17" Left="146" Top="36" Width="130" Height="18" ShowHint="False" StretchMode="smMaxHeight" Color="14211288" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="13" HideZeros="True" ParentFont="False" Text="Вид перечисления"/>
+      <TfrxMemoView Name="Memo18" Left="276" Top="36" Width="84" Height="18" ShowHint="False" StretchMode="smMaxHeight" Color="14211288" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="13" HideZeros="True" ParentFont="False" Text="Марка ГСМ"/>
+      <TfrxMemoView Name="Memo19" Left="360" Top="36" Width="88" Height="18" ShowHint="False" StretchMode="smMaxHeight" Color="14211288" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="13" HideZeros="True" ParentFont="False" Text="Дата"/>
+      <TfrxMemoView Name="Memo20" Left="448" Top="36" Width="90" Height="18" ShowHint="False" StretchMode="smMaxHeight" Color="14211288" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="13" HAlign="haRight" HideZeros="True" ParentFont="False" Text="Рубли"/>
+      <TfrxMemoView Name="Memo6" Left="538" Top="36" Width="90" Height="18" ShowHint="False" StretchMode="smMaxHeight" Color="14211288" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="13" HAlign="haRight" HideZeros="True" ParentFont="False" Text="Литры"/>
+      <TfrxMemoView Name="Memo7" Left="628" Top="36" Width="90" Height="18" ShowHint="False" StretchMode="smMaxHeight" Color="14211288" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haRight" HideZeros="True" ParentFont="False" Text="Тонны"/>
+    </TfrxGroupHeader>
+    <TfrxReportTitle Name="ReportTitle1" Height="58" Left="0" Top="16" Width="755,906">
+      <TfrxMemoView Name="Memo24" Left="2" Top="8" Width="712" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" HAlign="haCenter" HideZeros="True" ParentFont="False" Text="ФИНАНСИРОВАНИЕ ГСМ"/>
+    </TfrxReportTitle>
+    <TfrxPageFooter Name="PageFooter1" Height="18" Left="0" Top="368" Width="755,906">
+      <TfrxMemoView Name="Memo25" Left="2" Top="0" Width="752" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Width="1,5" HAlign="haRight" HideZeros="True" ParentFont="False" Text="[Page#]"/>
+    </TfrxPageFooter>
+    <TfrxGroupFooter Name="GroupFooter1" Height="20" Left="0" Top="248" Width="755,906" Stretched="True">
+      <TfrxMemoView Name="Memo23" Left="6" Top="0" Width="440" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HideZeros="True" ParentFont="False" VAlign="vaCenter" Text="ИТОГО"/>
+      <TfrxMemoView Name="Memo11" Left="444" Top="0" Width="90" Height="20" ShowHint="False" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" HAlign="haRight" HideZeros="True" Text="[sum(&#60;frxDBDataset1.&#34;rubl&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo12" Left="534" Top="0" Width="90" Height="20" ShowHint="False" StretchMode="smMaxHeight" HAlign="haRight" HideZeros="True" Text="[sum(&#60;frxDBDataset1.&#34;lit&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo13" Left="624" Top="0" Width="90" Height="20" ShowHint="False" StretchMode="smMaxHeight" HAlign="haRight" HideZeros="True" Text="[sum(&#60;frxDBDataset1.&#34;tonn&#34;&#62;)]"/>
+    </TfrxGroupFooter>
+    <TfrxReportSummary Name="ReportSummary1" Height="20" Left="0" Top="328" Width="755,906">
+      <TfrxMemoView Name="Memo14" Left="6" Top="0" Width="212" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HideZeros="True" ParentFont="False" VAlign="vaCenter" Text="ВСЕГО"/>
+      <TfrxMemoView Name="Memo15" Left="444" Top="0" Width="90" Height="20" ShowHint="False" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" HAlign="haRight" HideZeros="True" Text="[sum(&#60;frxDBDataset1.&#34;rubl&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo21" Left="534" Top="0" Width="90" Height="20" ShowHint="False" StretchMode="smMaxHeight" HAlign="haRight" HideZeros="True" Text="[sum(&#60;frxDBDataset1.&#34;lit&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo22" Left="624" Top="0" Width="90" Height="20" ShowHint="False" StretchMode="smMaxHeight" HAlign="haRight" HideZeros="True" Text="[sum(&#60;frxDBDataset1.&#34;tonn&#34;&#62;)]"/>
+    </TfrxReportSummary>
+  </TfrxReportPage>
+</TfrxReport>

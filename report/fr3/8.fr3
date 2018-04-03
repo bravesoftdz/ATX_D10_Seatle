@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.9.32" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39141,2783635301" ReportOptions.Description.Text="" ReportOptions.LastChange="41018,400291412" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." ShowProgress="False" PropData="044C656674021003546F7002600844617461736574730100095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="19" RightMargin="4" TopMargin="4" BottomMargin="4" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="728" Left="0" Top="16" Width="706,77211">
+      <TfrxMemoView Name="Memo1" Left="2" Top="120" Width="668" Height="20" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="КАРТОЧКА"/>
+      <TfrxMemoView Name="Memo2" Left="2" Top="140" Width="668" Height="20" ShowHint="False" StretchMode="smMaxHeight" HAlign="haCenter" Text="аккумуляторной батареи"/>
+      <TfrxMemoView Name="Memo3" Left="2" Top="164" Width="168" Height="20" ShowHint="False" StretchMode="smMaxHeight" HAlign="haCenter" Text="[type]"/>
+      <TfrxMemoView Name="Memo4" Left="246" Top="164" Width="168" Height="20" ShowHint="False" StretchMode="smMaxHeight" HAlign="haCenter" Text="[model]"/>
+      <TfrxMemoView Name="Memo6" Left="470" Top="164" Width="96" Height="20" ShowHint="False" StretchMode="smMaxHeight" HAlign="haCenter" Text="[year]"/>
+      <TfrxMemoView Name="Memo7" Left="2" Top="184" Width="168" Height="20" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="4" HAlign="haCenter" ParentFont="False" Text="тип"/>
+      <TfrxMemoView Name="Memo8" Left="246" Top="184" Width="168" Height="20" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="4" HAlign="haCenter" ParentFont="False" Text="модель"/>
+      <TfrxMemoView Name="Memo9" Left="470" Top="184" Width="96" Height="20" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="4" HAlign="haCenter" ParentFont="False" Text="год выпуска"/>
+      <TfrxMemoView Name="Memo5" Left="2" Top="212" Width="168" Height="20" ShowHint="False" StretchMode="smMaxHeight" HAlign="haCenter" Text="[num]"/>
+      <TfrxMemoView Name="Memo10" Left="246" Top="216" Width="320" Height="20" ShowHint="False" StretchMode="smMaxHeight" HAlign="haCenter" Text="[date1]"/>
+      <TfrxMemoView Name="Memo11" Left="2" Top="232" Width="168" Height="20" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="4" HAlign="haCenter" ParentFont="False" Text="заводской №"/>
+      <TfrxMemoView Name="Memo12" Left="246" Top="236" Width="320" Height="20" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="4" HAlign="haRight" ParentFont="False" Text="дата приведения в рабочее состояние"/>
+      <TfrxMemoView Name="Memo15" Left="2" Top="288" Width="260" Height="36" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="4" HAlign="haRight" ParentFont="False" Text="модель, проект&#13;&#10;трансп.&#13;&#10;средства"/>
+      <TfrxMemoView Name="Memo16" Left="282" Top="288" Width="116" Height="36" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="4" HAlign="haCenter" ParentFont="False" Text="дата первого&#13;&#10;закрепления"/>
+      <TfrxMemoView Name="Memo18" Left="2" Top="368" Width="120" Height="20" ShowHint="False" StretchMode="smMaxHeight" Text="ЗАКРЕПЛЕНА ЗА"/>
+      <TfrxMemoView Name="Memo19" Left="2" Top="428" Width="260" Height="36" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="4" HAlign="haRight" ParentFont="False" Text="модель, проект&#13;&#10;трансп.&#13;&#10;средства"/>
+      <TfrxMemoView Name="Memo20" Left="282" Top="428" Width="116" Height="36" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="4" HAlign="haCenter" ParentFont="False" Text="дата последующего&#13;&#10;закрепления"/>
+      <TfrxMemoView Name="Memo21" Left="2" Top="264" Width="260" Height="20" ShowHint="False" StretchMode="smMaxHeight" Text=""/>
+      <TfrxMemoView Name="Memo22" Left="282" Top="264" Width="116" Height="20" ShowHint="False" StretchMode="smMaxHeight" Text=""/>
+      <TfrxMemoView Name="Memo23" Left="2" Top="404" Width="260" Height="20" ShowHint="False" StretchMode="smMaxHeight" Text="[avt]"/>
+      <TfrxMemoView Name="Memo24" Left="282" Top="404" Width="116" Height="20" ShowHint="False" StretchMode="smMaxHeight" Text="[date2]"/>
+      <TfrxMemoView Name="Memo25" Left="2" Top="476" Width="96" Height="20" ShowHint="False" StretchMode="smMaxHeight" Text="Переведена в"/>
+      <TfrxMemoView Name="Memo26" Left="2" Top="500" Width="112" Height="20" ShowHint="False" StretchMode="smMaxHeight" Text="подменный фонт"/>
+      <TfrxMemoView Name="Memo27" Left="114" Top="520" Width="148" Height="12" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="4" HAlign="haCenter" ParentFont="False" Text="месяц"/>
+      <TfrxMemoView Name="Memo28" Left="362" Top="520" Width="212" Height="12" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="4" HAlign="haCenter" ParentFont="False" Text="месяцев"/>
+      <TfrxMemoView Name="Memo29" Left="0" Top="540" Width="84" Height="20" ShowHint="False" StretchMode="smMaxHeight" Text="Выбраковка"/>
+      <TfrxMemoView Name="Memo30" Left="86" Top="560" Width="320" Height="12" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="4" HAlign="haRight" ParentFont="False" Text=""/>
+      <TfrxMemoView Name="Memo31" Left="2" Top="596" Width="568" Height="12" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="4" HAlign="haRight" ParentFont="False" Text=""/>
+      <TfrxMemoView Name="Memo32" Left="2" Top="612" Width="100" Height="20" ShowHint="False" StretchMode="smMaxHeight" Text="Прочии отметки"/>
+      <TfrxMemoView Name="Memo44" Left="264" Top="504" Width="96" Height="16" ShowHint="False" Text="20    г. службы"/>
+      <TfrxMemoView Name="Memo45" Left="412" Top="544" Width="80" Height="16" ShowHint="False" Text="20     г"/>
+      <TfrxMemoView Name="Memo13" Left="416" Top="288" Width="152" Height="16" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text=""/>
+      <TfrxMemoView Name="Memo14" Left="416" Top="304" Width="152" Height="16" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="[inv]"/>
+      <TfrxMemoView Name="Memo17" Left="416" Top="320" Width="152" Height="16" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="инв.№ тран.сред."/>
+    </TfrxReportTitle>
+  </TfrxReportPage>
+  <TfrxReportPage Name="Page2" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="19" RightMargin="4" TopMargin="4" BottomMargin="4" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle2" Height="664" Left="0" Top="16" Width="706,77211">
+      <TfrxMemoView Name="Memo33" Left="2" Top="64" Width="668" Height="20" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text=""/>
+      <TfrxMemoView Name="Memo34" Left="2" Top="84" Width="668" Height="20" ShowHint="False" StretchMode="smMaxHeight" HAlign="haCenter" Text=""/>
+      <TfrxMemoView Name="Memo35" Left="2" Top="152" Width="668" Height="20" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="4" HAlign="haCenter" ParentFont="False" Text=""/>
+      <TfrxMemoView Name="Memo36" Left="2" Top="240" Width="668" Height="20" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="4" HAlign="haCenter" ParentFont="False" Text=""/>
+      <TfrxMemoView Name="Memo37" Left="2" Top="332" Width="668" Height="20" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="4" HAlign="haCenter" ParentFont="False" Text=""/>
+      <TfrxMemoView Name="Memo38" Left="2" Top="460" Width="192" Height="20" ShowHint="False" StretchMode="smMaxHeight" Text=""/>
+      <TfrxMemoView Name="Memo39" Left="194" Top="488" Width="476" Height="20" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="4" HAlign="haCenter" ParentFont="False" Text=""/>
+      <TfrxMemoView Name="Memo40" Left="194" Top="536" Width="476" Height="20" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="4" HAlign="haCenter" ParentFont="False" Text=""/>
+      <TfrxMemoView Name="Memo41" Left="194" Top="584" Width="476" Height="20" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="4" HAlign="haCenter" ParentFont="False" Text=""/>
+      <TfrxMemoView Name="Memo42" Left="54" Top="536" Width="96" Height="20" ShowHint="False" StretchMode="smMaxHeight" HAlign="haCenter" Text=""/>
+      <TfrxMemoView Name="Memo43" Left="2" Top="644" Width="220" Height="20" ShowHint="False" StretchMode="smMaxHeight" Frame.Typ="8" HAlign="haCenter" Text=""/>
+    </TfrxReportTitle>
+  </TfrxReportPage>
+</TfrxReport>

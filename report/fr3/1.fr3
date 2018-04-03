@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.9.32" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39359,4088382523" ReportOptions.Description.Text="" ReportOptions.LastChange="41018,163288044" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C656674021003546F70026008446174617365747301010C3400000020446174615365743D22667278444244617461736574312220446174615365744E616D653D2266727844424461746173657431220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="5" RightMargin="5" TopMargin="5" BottomMargin="5" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxMasterData Name="MasterData1" Height="18" Left="0" Top="288" Width="755,906" Columns="1" ColumnWidth="200" ColumnGap="20" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" RowCount="0" Stretched="True">
+      <TfrxMemoView Name="Memo10" Left="216" Top="0" Width="118" Height="18" ShowHint="False" StretchMode="smMaxHeight" Frame.Typ="9" HideZeros="True" VAlign="vaCenter" Text="[frxDBDataset1.&#34;fact_run&#34;]"/>
+      <TfrxMemoView Name="Memo1" Left="590" Top="0" Width="118" Height="18" ShowHint="False" StretchMode="smMaxHeight" Frame.Typ="11" VAlign="vaCenter" Text="[frxDBDataset1.&#34;pere&#34;]"/>
+      <TfrxMemoView Name="Memo3" Left="0" Top="0" Width="216" Height="18" ShowHint="False" StretchMode="smMaxHeight" Frame.Typ="9" HideZeros="True" VAlign="vaCenter" Text="[frxDBDataset1.&#34;Expr4&#34;]"/>
+      <TfrxMemoView Name="Memo11" Left="334" Top="0" Width="128" Height="18" ShowHint="False" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Frame.Typ="9" HideZeros="True" VAlign="vaCenter" Text="[frxDBDataset1.&#34;ktg&#34;]"/>
+      <TfrxMemoView Name="Memo12" Left="462" Top="0" Width="128" Height="18" ShowHint="False" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Frame.Typ="9" HideZeros="True" VAlign="vaCenter" Text="[frxDBDataset1.&#34;ktv&#34;]"/>
+    </TfrxMasterData>
+    <TfrxGroupHeader Name="GroupHeader1" Height="27" Left="0" Top="136" Width="755,906" Condition="frxDBDataset1.&#34;name&#34;">
+      <TfrxMemoView Name="Memo2" Align="baCenter" Left="21,953" Top="5" Width="712" Height="22" ShowHint="False" StretchMode="smMaxHeight" Color="12632256" Font.Charset="1" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Style="1" HAlign="haCenter" HideZeros="True" ParentFont="False" Text="[frxDBDataset1.&#34;name&#34;]"/>
+    </TfrxGroupHeader>
+    <TfrxGroupHeader Name="GroupHeader2" Height="18" Left="0" Top="184" Width="755,906" Condition="frxDBDataset1.&#34;Expr1&#34;">
+      <TfrxMemoView Name="Memo4" Left="98" Top="1" Width="612" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HideZeros="True" ParentFont="False" Text="[frxDBDataset1.&#34;Expr1&#34;]"/>
+      <TfrxMemoView Name="Memo7" Left="2" Top="1" Width="96" Height="18" ShowHint="False" StretchMode="smMaxHeight" HideZeros="True" Text="Управление"/>
+    </TfrxGroupHeader>
+    <TfrxGroupHeader Name="GroupHeader3" Height="42" Left="0" Top="224" Width="755,906" Condition="frxDBDataset1.&#34;Expr2&#34;" ReprintOnNewPage="True">
+      <TfrxMemoView Name="Memo5" Left="98" Top="0" Width="612" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HideZeros="True" ParentFont="False" Text="[frxDBDataset1.&#34;Expr2&#34;]"/>
+      <TfrxMemoView Name="Memo8" Left="2" Top="0" Width="96" Height="18" ShowHint="False" StretchMode="smMaxHeight" HideZeros="True" Text="Отдел"/>
+      <TfrxMemoView Name="Memo34" Left="0" Top="24" Width="216" Height="18" ShowHint="False" StretchMode="smMaxHeight" Color="14211288" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="13" HideZeros="True" ParentFont="False" Text="Служба"/>
+      <TfrxMemoView Name="Memo35" Left="216" Top="24" Width="118" Height="18" ShowHint="False" StretchMode="smMaxHeight" Color="14211288" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="13" HideZeros="True" ParentFont="False" Text="Пробег(факт)"/>
+      <TfrxMemoView Name="Memo36" Left="334" Top="24" Width="128" Height="18" ShowHint="False" StretchMode="smMaxHeight" Color="14211288" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="13" HideZeros="True" ParentFont="False" Text="КТГ"/>
+      <TfrxMemoView Name="Memo37" Left="462" Top="24" Width="128" Height="18" ShowHint="False" StretchMode="smMaxHeight" Color="14211288" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="13" HideZeros="True" ParentFont="False" Text="КТВ"/>
+      <TfrxMemoView Name="Memo38" Left="590" Top="24" Width="118" Height="18" ShowHint="False" StretchMode="smMaxHeight" Color="14211288" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HideZeros="True" ParentFont="False" Text="Перепробег"/>
+    </TfrxGroupHeader>
+    <TfrxReportTitle Name="ReportTitle1" Height="62" Left="0" Top="16" Width="755,906">
+      <TfrxMemoView Name="Memo24" Left="2" Top="8" Width="712" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" HAlign="haCenter" HideZeros="True" ParentFont="False" Text="Эксплуатационные показатели"/>
+      <TfrxMemoView Name="Memo13" Left="2" Top="44" Width="712" Height="18" ShowHint="False" StretchMode="smMaxHeight" HideZeros="True" Text="[date2]"/>
+      <TfrxMemoView Name="Memo69" Left="450" Top="28" Width="264" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" HideZeros="True" ParentFont="False" VAlign="vaCenter" Text="[Date]"/>
+    </TfrxReportTitle>
+    <TfrxPageFooter Name="PageFooter1" Height="18" Left="0" Top="532" Width="755,906">
+      <TfrxMemoView Name="Memo25" Left="0" Top="0" Width="756" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Width="1,5" HAlign="haRight" HideZeros="True" ParentFont="False" Text="[Page#]"/>
+    </TfrxPageFooter>
+    <TfrxFooter Name="MasterFooter1" Height="20" Left="0" Top="452" Width="755,906">
+      <TfrxMemoView Name="Memo29" Left="0" Top="0" Width="216" Height="20" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Итого"/>
+      <TfrxMemoView Name="Memo16" Left="216" Top="0" Width="118" Height="18" ShowHint="False" StretchMode="smMaxHeight" HideZeros="True" VAlign="vaCenter" Text="[SUM(&#60;frxDBDataset1.&#34;fact_run&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo17" Left="334" Top="0" Width="128" Height="18" ShowHint="False" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" HideZeros="True" VAlign="vaCenter" Text="[IIF(sum(&#60;frxDBDataset1.&#34;d_g&#34;&#62;)&#62;sum(&#60;frxDBDataset1.&#34;d_out&#34;&#62;), 1, sum(&#60;frxDBDataset1.&#34;d_g&#34;&#62;)/sum(&#60;frxDBDataset1.&#34;d_out&#34;&#62;))]"/>
+      <TfrxMemoView Name="Memo18" Left="590" Top="0" Width="122" Height="18" ShowHint="False" StretchMode="smMaxHeight" VAlign="vaCenter" Text="[SUM(&#60;frxDBDataset1.&#34;pere&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo19" Left="462" Top="0" Width="128" Height="18" ShowHint="False" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" HideZeros="True" VAlign="vaCenter" Text="[IIF(sum(&#60;frxDBDataset1.&#34;d_o&#34;&#62;)&#62;sum(&#60;frxDBDataset1.&#34;d_out&#34;&#62;), 1, sum(&#60;frxDBDataset1.&#34;d_o&#34;&#62;)/sum(&#60;frxDBDataset1.&#34;d_out&#34;&#62;))]"/>
+    </TfrxFooter>
+    <TfrxGroupFooter Name="GroupFooter1" Height="42" Left="0" Top="328" Width="755,906" Stretched="True">
+      <TfrxMemoView Name="Memo14" Left="216" Top="0" Width="118" Height="18" ShowHint="False" StretchMode="smMaxHeight" HideZeros="True" VAlign="vaCenter" Text="[SUM(&#60;frxDBDataset1.&#34;fact_run&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo15" Left="334" Top="0" Width="128" Height="18" ShowHint="False" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" HideZeros="True" VAlign="vaCenter" Text="[IIF(sum(&#60;frxDBDataset1.&#34;d_g&#34;&#62;)&#62;sum(&#60;frxDBDataset1.&#34;d_out&#34;&#62;), 1, sum(&#60;frxDBDataset1.&#34;d_g&#34;&#62;)/sum(&#60;frxDBDataset1.&#34;d_out&#34;&#62;))]&#13;&#10;&#13;&#10;"/>
+      <TfrxMemoView Name="Memo21" Left="590" Top="0" Width="118" Height="18" ShowHint="False" StretchMode="smMaxHeight" VAlign="vaCenter" Text="[SUM(&#60;frxDBDataset1.&#34;pere&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo22" Left="462" Top="0" Width="128" Height="18" ShowHint="False" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" HideZeros="True" VAlign="vaCenter" Text="[IIF(sum(&#60;frxDBDataset1.&#34;d_o&#34;&#62;)&#62;sum(&#60;frxDBDataset1.&#34;d_out&#34;&#62;), 1, sum(&#60;frxDBDataset1.&#34;d_o&#34;&#62;)/sum(&#60;frxDBDataset1.&#34;d_out&#34;&#62;))]"/>
+      <TfrxMemoView Name="Memo23" Left="0" Top="0" Width="216" Height="18" ShowHint="False" StretchMode="smMaxHeight" HideZeros="True" VAlign="vaCenter" Text="Итого по отделу"/>
+    </TfrxGroupFooter>
+    <TfrxGroupFooter Name="GroupFooter3" Height="40" Left="0" Top="392" Width="755,906">
+      <TfrxMemoView Name="Memo6" Left="0" Top="0" Width="216" Height="20" ShowHint="False" StretchMode="smMaxHeight" Text="Итого по управлению"/>
+      <TfrxMemoView Name="Memo9" Left="216" Top="0" Width="118" Height="18" ShowHint="False" StretchMode="smMaxHeight" HideZeros="True" VAlign="vaCenter" Text="[SUM(&#60;frxDBDataset1.&#34;fact_run&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo26" Left="334" Top="0" Width="128" Height="18" ShowHint="False" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" HideZeros="True" VAlign="vaCenter" Text="[IIF(sum(&#60;frxDBDataset1.&#34;d_g&#34;&#62;)&#62;sum(&#60;frxDBDataset1.&#34;d_out&#34;&#62;), 1, sum(&#60;frxDBDataset1.&#34;d_g&#34;&#62;)/sum(&#60;frxDBDataset1.&#34;d_out&#34;&#62;))]"/>
+      <TfrxMemoView Name="Memo27" Left="590" Top="0" Width="122" Height="18" ShowHint="False" StretchMode="smMaxHeight" VAlign="vaCenter" Text="[SUM(&#60;frxDBDataset1.&#34;pere&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo28" Left="462" Top="0" Width="128" Height="18" ShowHint="False" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" HideZeros="True" VAlign="vaCenter" Text="[IIF(sum(&#60;frxDBDataset1.&#34;d_o&#34;&#62;)&#62;sum(&#60;frxDBDataset1.&#34;d_out&#34;&#62;), 1, sum(&#60;frxDBDataset1.&#34;d_o&#34;&#62;)/sum(&#60;frxDBDataset1.&#34;d_out&#34;&#62;))]"/>
+    </TfrxGroupFooter>
+  </TfrxReportPage>
+</TfrxReport>
