@@ -50,7 +50,6 @@ object frmavtocard: Tfrmavtocard
       ParentBackground = False
       TabOrder = 0
       Visible = False
-      ExplicitLeft = 0
       object RecN: TLabel
         Left = 248
         Top = 637
@@ -374,7 +373,7 @@ object frmavtocard: Tfrmavtocard
         Top = 49
         Width = 807
         Height = 512
-        ActivePage = TabSheet1
+        ActivePage = TabSheet4
         Align = alTop
         TabOrder = 3
         object TabSheet1: TTabSheet
@@ -1099,10 +1098,6 @@ object frmavtocard: Tfrmavtocard
                   Color = 15590358
                   ParentBackground = False
                   TabOrder = 0
-                  ExplicitLeft = 52
-                  ExplicitTop = 234
-                  ExplicitWidth = 185
-                  ExplicitHeight = 41
                   object Label29: TLabel
                     Left = 5
                     Top = 48
@@ -1269,10 +1264,6 @@ object frmavtocard: Tfrmavtocard
                   Color = 15590358
                   ParentBackground = False
                   TabOrder = 0
-                  ExplicitLeft = 52
-                  ExplicitTop = 234
-                  ExplicitWidth = 185
-                  ExplicitHeight = 41
                   object Label30: TLabel
                     Left = 5
                     Top = 32

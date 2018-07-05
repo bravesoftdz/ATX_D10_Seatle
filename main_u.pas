@@ -114,6 +114,7 @@ type
     N62: TMenuItem;
     N63: TMenuItem;
     frxCSVExport1: TfrxCSVExport;
+    N64: TMenuItem;
     procedure ExitExecute(Sender: TObject);
     procedure LbStaticText1MouseDown(Sender: TObject; Button: TMouseButton;
       Shift: TShiftState; X, Y: Integer);
@@ -169,6 +170,7 @@ type
     procedure N61Click(Sender: TObject);
     procedure N62Click(Sender: TObject);
     procedure N63Click(Sender: TObject);
+    procedure N64Click(Sender: TObject);
   private
     whatReport:integer;
     dateR1,dateR2:String;
@@ -987,6 +989,7 @@ case what of
 72:SP_Report.ProcedureName:='GetReportDtp;1';
 73:SP_Report.ProcedureName:='GetReportShinaRazmer;1';
 63:SP_Report.ProcedureName:='GetReportInventar;1';
+64:SP_Report.ProcedureName:='GetReportGovNumber;1';
 end;
 if what<>41 then begin
 SP_Report.Parameters.AddParameter;
@@ -1094,7 +1097,7 @@ SP_Report.Parameters[25].Name:='@life_p';
 SP_Report.Parameters[25].DataType:=ftInteger;
 SP_Report.Parameters[25].Value:=life_p;
 
-if (what=0) or (what=13)or (what=73) or (what=61) or (what=62) or (what=63) then begin
+if (what=0) or (what=13)or (what=73) or (what=61) or (what=62) or (what=63)  or (what=64) then begin
 SP_Report.Parameters.AddParameter;
 SP_Report.Parameters[26].Name:='@OutD1';
 SP_Report.Parameters[26].DataType:=ftString;
@@ -1323,7 +1326,7 @@ SP_Report.Parameters[31].Value:=id_gsm;
 
 end;
 
-if (what=0) or (what=63) then
+if (what=0) or (what=63) or (what=64) then
 begin
 SP_Report.Parameters.AddParameter;
 SP_Report.Parameters[38].Name:='@state_priz';
@@ -1351,6 +1354,17 @@ SP_Report.Parameters.AddParameter;
 SP_Report.Parameters[43].Name:='@spisat_next';
 SP_Report.Parameters[43].DataType:=ftInteger;
 SP_Report.Parameters[43].Value:=spisat_Next;
+end;
+if (what=64) then
+begin
+SP_Report.Parameters.AddParameter;
+SP_Report.Parameters[44].Name:='@datt1';
+SP_Report.Parameters[44].DataType:=ftString;
+SP_Report.Parameters[44].Value:=d1Rr;
+SP_Report.Parameters.AddParameter;
+SP_Report.Parameters[45].Name:='@datt1';
+SP_Report.Parameters[45].DataType:=ftString;
+SP_Report.Parameters[45].Value:=d2Rr;
 end;
 
 try
@@ -1382,6 +1396,7 @@ case what of
 72:frxReport1.ReportOptions.Name:='Отчет по ДТП';
 73:frxReport1.ReportOptions.Name:='Отчет по размеру шин';
 63:frxReport1.ReportOptions.Name:='Акт инвентаризации';
+64:frxReport1.ReportOptions.Name:='Отчет о замене гос.номера';
 end;//case
 
 
@@ -1528,6 +1543,16 @@ begin
   frmreport.GroupBox2.Visible:=true;
   frmreport.GroupBox3.Visible:=false;
   frmreport.TArenda.Visible:=true;
+  frmreport.ShowModal;
+end;
+
+procedure TMain.N64Click(Sender: TObject);
+begin
+{Отчет о замене гос.номера}
+  Application.CreateForm(Tfrmreport, frmreport);
+  frmreport.ReportGovNumber;
+  frmreport.GroupBox2.Visible:=true;
+  frmreport.GroupBox3.Visible:=false;
   frmreport.ShowModal;
 end;
 
@@ -2372,13 +2397,17 @@ today : TDateTime;
 myYear, myMonth, myDay : Word;
 begin
 case whatReport of
-0,61,62,63:begin
+0,61,62,63,64:begin
 first_fr:=true;
 i_Old:=0;
 today:=Now();
 
 if VarName = 'titles' then
     Value := 'Отсутствие ТО более 3 месяцев (отсутствие ТО в период с '+frmreport.d1R.Text+' по '+frmreport.d2R.Text+')';
+
+if VarName = 'title_gov' then
+    Value := 'Замена гос.номера в период с '+frmreport.d1R.Text+' по '+frmreport.d2R.Text;
+
 
 for n_i:=1 to 26 do
 begin

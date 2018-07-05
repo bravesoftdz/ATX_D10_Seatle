@@ -790,7 +790,7 @@ object Main: TMain
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 41017.502369919000000000
-    ReportOptions.LastChange = 43172.410771597220000000
+    ReportOptions.LastChange = 43284.167127569450000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -832,6 +832,13 @@ object Main: TMain
           HAlign = haRight
           Memo.UTF8W = (
             '[Date]')
+        end
+        object Memo4: TfrxMemoView
+          Left = 3.779530000000000000
+          Width = 767.244590000000000000
+          Height = 18.897650000000000000
+          Memo.UTF8W = (
+            '[title_gov]')
         end
       end
       object MasterData1: TfrxMasterData
@@ -876,7 +883,7 @@ object Main: TMain
         end
         object mmm3: TfrxMemoView
           Left = 112.944960000000000000
-          Width = 40.000000000000000000
+          Width = 75.590551181102400000
           Height = 30.000000000000000000
           StretchMode = smMaxHeight
           Font.Charset = DEFAULT_CHARSET
@@ -1268,7 +1275,7 @@ object Main: TMain
         Condition = '1'
         ReprintOnNewPage = True
         object mm1: TfrxMemoView
-          Top = 7.968459999999994000
+          Top = 7.968460000000000000
           Width = 86.000000000000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1285,7 +1292,7 @@ object Main: TMain
         end
         object mm2: TfrxMemoView
           Left = 94.488250000000000000
-          Top = 7.968459999999994000
+          Top = 7.968460000000000000
           Width = 26.000000000000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1302,8 +1309,8 @@ object Main: TMain
         end
         object mm3: TfrxMemoView
           Left = 112.944960000000000000
-          Top = 7.968459999999994000
-          Width = 40.000000000000000000
+          Top = 7.968460000000000000
+          Width = 75.590551181102400000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -1319,7 +1326,7 @@ object Main: TMain
         end
         object mm4: TfrxMemoView
           Left = 154.519790000000000000
-          Top = 7.968459999999994000
+          Top = 7.968460000000000000
           Width = 24.000000000000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1336,7 +1343,7 @@ object Main: TMain
         end
         object mm5: TfrxMemoView
           Left = 180.756030000000000000
-          Top = 7.968459999999994000
+          Top = 7.968460000000000000
           Width = 40.000000000000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1353,7 +1360,7 @@ object Main: TMain
         end
         object mm6: TfrxMemoView
           Left = 222.992270000000000000
-          Top = 7.968459999999994000
+          Top = 7.968460000000000000
           Width = 56.000000000000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1370,7 +1377,7 @@ object Main: TMain
         end
         object mm7: TfrxMemoView
           Left = 281.480520000000000000
-          Top = 7.968459999999994000
+          Top = 7.968460000000000000
           Width = 46.000000000000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1387,7 +1394,7 @@ object Main: TMain
         end
         object mm8: TfrxMemoView
           Left = 328.000000000000000000
-          Top = 7.968459999999994000
+          Top = 7.968460000000000000
           Width = 50.000000000000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1404,7 +1411,7 @@ object Main: TMain
         end
         object mm9: TfrxMemoView
           Left = 376.000000000000000000
-          Top = 7.968459999999994000
+          Top = 7.968460000000000000
           Width = 50.000000000000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1421,7 +1428,7 @@ object Main: TMain
         end
         object mm14: TfrxMemoView
           Left = 424.000000000000000000
-          Top = 7.968459999999994000
+          Top = 7.968460000000000000
           Width = 56.000000000000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1438,7 +1445,7 @@ object Main: TMain
         end
         object mm15: TfrxMemoView
           Left = 472.000000000000000000
-          Top = 7.968459999999994000
+          Top = 7.968460000000000000
           Width = 48.000000000000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1455,7 +1462,7 @@ object Main: TMain
         end
         object mm16: TfrxMemoView
           Left = 520.000000000000000000
-          Top = 7.968459999999994000
+          Top = 7.968460000000000000
           Width = 48.000000000000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1472,7 +1479,7 @@ object Main: TMain
         end
         object mm17: TfrxMemoView
           Left = 572.000000000000000000
-          Top = 7.968459999999994000
+          Top = 7.968460000000000000
           Width = 44.000000000000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1489,7 +1496,7 @@ object Main: TMain
         end
         object mm18: TfrxMemoView
           Left = 612.000000000000000000
-          Top = 7.968459999999994000
+          Top = 7.968460000000000000
           Width = 48.000000000000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1506,7 +1513,7 @@ object Main: TMain
         end
         object mm19: TfrxMemoView
           Left = 660.000000000000000000
-          Top = 7.968459999999994000
+          Top = 7.968460000000000000
           Width = 44.000000000000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1523,7 +1530,7 @@ object Main: TMain
         end
         object mm20: TfrxMemoView
           Left = 700.000000000000000000
-          Top = 7.968459999999994000
+          Top = 7.968460000000000000
           Width = 44.000000000000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1540,7 +1547,7 @@ object Main: TMain
         end
         object mm21: TfrxMemoView
           Left = 744.000000000000000000
-          Top = 7.968459999999994000
+          Top = 7.968460000000000000
           Width = 44.000000000000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1557,7 +1564,7 @@ object Main: TMain
         end
         object mm22: TfrxMemoView
           Left = 788.000000000000000000
-          Top = 7.968459999999994000
+          Top = 7.968460000000000000
           Width = 44.000000000000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1574,7 +1581,7 @@ object Main: TMain
         end
         object mm23: TfrxMemoView
           Left = 832.000000000000000000
-          Top = 7.968459999999994000
+          Top = 7.968460000000000000
           Width = 68.000000000000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1591,7 +1598,7 @@ object Main: TMain
         end
         object mm24: TfrxMemoView
           Left = 904.000000000000000000
-          Top = 7.968459999999994000
+          Top = 7.968460000000000000
           Width = 36.000000000000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1608,7 +1615,7 @@ object Main: TMain
         end
         object mm25: TfrxMemoView
           Left = 952.000000000000000000
-          Top = 7.968459999999994000
+          Top = 7.968460000000000000
           Width = 44.000000000000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1625,7 +1632,7 @@ object Main: TMain
         end
         object mm26: TfrxMemoView
           Left = 1000.000000000000000000
-          Top = 7.968459999999994000
+          Top = 7.968460000000000000
           Width = 36.000000000000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1642,7 +1649,7 @@ object Main: TMain
         end
         object mm10: TfrxMemoView
           Left = 1039.370750000000000000
-          Top = 7.936963939999999000
+          Top = 7.936963940000000000
           Width = 56.692913390000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1659,7 +1666,7 @@ object Main: TMain
         end
         object mm11: TfrxMemoView
           Left = 1084.725110000000000000
-          Top = 7.936963939999999000
+          Top = 7.936963940000000000
           Width = 37.795263390000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1676,7 +1683,7 @@ object Main: TMain
         end
         object mm12: TfrxMemoView
           Left = 1111.181820000000000000
-          Top = 7.936963939999999000
+          Top = 7.936963940000000000
           Width = 34.015733390000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1693,7 +1700,7 @@ object Main: TMain
         end
         object mm13: TfrxMemoView
           Left = 1133.859000000000000000
-          Top = 7.936963939999999000
+          Top = 7.936963940000000000
           Width = 75.590563390000000000
           Height = 37.795300000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -2146,6 +2153,10 @@ object Main: TMain
       object N63: TMenuItem
         Caption = #1048#1085#1074#1077#1085#1090#1072#1088#1080#1079#1072#1094#1080#1103' ('#1073#1077#1079' '#1075#1088#1091#1087#1087#1080#1088#1086#1074#1082#1080')'
         OnClick = N63Click
+      end
+      object N64: TMenuItem
+        Caption = #1054#1090#1095#1077#1090' '#1086' '#1079#1072#1084#1077#1085#1077' '#1075#1086#1089'.'#1085#1086#1084#1077#1088#1072
+        OnClick = N64Click
       end
     end
     object ItemShtat: TMenuItem

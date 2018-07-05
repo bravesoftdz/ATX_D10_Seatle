@@ -210,6 +210,7 @@ type
     procedure LineNormGSM;
     procedure LineNormGSM2;
     procedure ReportTO;
+    procedure ReportGovNumber;
   protected
     procedure CreateParams(var Params: TCreateParams); override;
 
@@ -751,6 +752,27 @@ dislok_box.Visible:=true;
 db_dislok.Visible:=true;
 TnotATX.Visible:=true;
 Caption:='Выборка для отчета "Ремонт"';
+end;
+
+procedure Tfrmreport.ReportGovNumber;
+begin
+what:=64;
+d1L.Visible:=true;
+d2L.Visible:=true;
+d1R.Visible:=true;
+d2R.Visible:=true;
+OutD1.Visible:=true;
+OutD2.Visible:=true;
+State_box.Visible:=true;
+OutAccount_box.Visible:=true;
+life_box.Visible:=true;
+RadioButton1.Visible:=true;
+Label5.Visible:=true;
+Label6.Visible:=true;
+dislok_box.Visible:=true;
+db_dislok.Visible:=true;
+TnotATX.Visible:=true;
+Caption:='Выборка для отчета "Отчет о замене гос.номера"';
 end;
 
 procedure Tfrmreport.Expel_pokaz;

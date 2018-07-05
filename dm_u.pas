@@ -181,7 +181,7 @@ type
     { Public declarations }
   end;
   const
-VER_PRG=21;
+VER_PRG=23;
 var
   dm: Tdm;
 

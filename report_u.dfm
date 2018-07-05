@@ -1403,7 +1403,6 @@ object frmreport: Tfrmreport
   end
   object SearchStorage: TFormStorage
     IniSection = 'Software\LebAlex\atx_uvd\reportForm'
-    UseRegistry = False
     StoredValues = <>
     Left = 376
     Top = 8
